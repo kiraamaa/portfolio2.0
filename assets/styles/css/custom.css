@@ -3,18 +3,17 @@
 .img-circle {
   border-radius: 50%;
 }
+.wrapper {
+  margin-left: 5px;
+  margin-top: 50px;
+}
+ul{
+  padding-left: 10px;
+}
+li{
+  margin: 10px 0;
+}
 
-/* Global */
-/*html{
-  min-height: 100%;
-  overflow: hidden;
-}*/
-/*body{
-  height: calc(100vh - 8em);
-  padding: 4em;
-  color: black;
-  /*font-family: 'Anonymous Pro', monospace;*/
-  /*background-color: rgb(25,25,25);*/
 
 
 .typed-cursor{

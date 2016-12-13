@@ -407,7 +407,7 @@
 		// time before typing starts
 		startDelay: 0,
 		// backspacing speed
-		backSpeed: 0,
+		backSpeed: 10,
 		// shuffle the strings
 		shuffle: false,
 		// time before backspacing

@@ -35,7 +35,7 @@
               I'm <span class="text-primary">Kira MacLean</span>, a front end web devloper
               living in Boston.
             </h1>-->
-            <h1 class="element text-primary"></h1>
+              <h1 class="element text-primary">  </h1>
           </div>
         </div>
       </div>
@@ -88,10 +88,10 @@
       </div>
     </section>
 
-    <!-- About Me -->
+<!-- About Me -->
     <section id="about" class="section">
       <div class="container">
-        <div class="row">
+        <div class="row text-center">
           <div class="col-sm-12">
             <h2 class="heading">About Me</h2>
           </div>
@@ -103,10 +103,21 @@
                   I’m intrigued by the concept of pushing the boundaries of <strong>efficient and practical</strong> code, and I’m highly motivated by my desire to directly influence the future of design and development.
                   Given my highly technical background and my passion for creative design, I’m looking for a <strong>design-oriented</strong> developer or product manager position at an established tech company so that I can help drive innovation with <strong>well-designed</strong> development solutions.
                 </p>
-                <p><img src="assets/styles/img/KiraLarge.jpg" alt="This is me" class="image img-circle img-responsive"></p>
+                <div class="wrapper">
+                  <h4 class="heading"> Here's what I excel at: </h4>
+                    <ul>
+                      <li class="text-left">Writing HTML, CSS, and JavaScript for displays in modern browsers with responsive design practices.</li>
+                      <li>Developing back-end web applications and APIs using a modern programming languages and MVC web development framework, such as Rails.</li>
+                      <li>Collaborating with teams using an agile development workflow and widely-accepted collaboration practices using Git and GitHub for version control.</li>
+                      <li>Improving and demonstrating web development skill-sets by building a series of full-stack web applications using JavaScript, jQuery, HTML5/CSS3, Bootstrap, and Ruby on Rails.</li>
+                    </ul>
+                </div>
               </div>
               <div class="col-sm-6">
-                <!--<p>Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>-->
+                <p class="pull-right"><img src="assets/styles/img/KiraLarge.jpg" alt="This is me" class="image img-circle img-responsive"></p>
+              </div>
+              <!--<div class="col-sm-6">
+                <p>Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>
                 <div class="skill-item">
                   <div class="progress-title">Ruby</div>
                   <div class="progress">
@@ -139,8 +150,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 mt-big"></div>
+          </div>-->
+
         </div>
       </div>
     </section>
@@ -267,7 +278,7 @@
     <script src="assets/styles/js/jquery.cookie.js"> </script>
     <script src="assets/styles/js/ekko-lightbox.js"></script>
     <script src="assets/styles/js/front.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <!-- Google Analytics: change UA-XXXXX-X to be site's ID.-->
     <!---->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -285,7 +296,7 @@
       $(function(){
           $(".element").typed({
             strings: ["Hey! I'm Kira.", "I'm a front end web developer,", "a web designer,", "and a constantly evolving creative.", "Scroll down to find out more about me."],
-            typeSpeed: 0
+            typeSpeed: 20
           });
       });
     </script>
